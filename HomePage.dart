@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    'E-Posta: destek@tarikediz.com',
+                    'E-Posta: destek@emirhancelik.com',
                     style: TextStyle(fontWeight: FontWeight.bold),
                     textAlign: TextAlign.center,
                   ),
@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       onPressed: () async {
                         const String _url =
-                            "https://play.google.com/store/apps/details?id=com.tarik.ediz";
+                            "https://play.google.com/store/apps/details?id=com.emirhancelik";
                         if (await canLaunch(_url)) {
                           launch(_url);
                         } else {
