@@ -35,7 +35,6 @@ class _HomePageState extends State<HomePage> {
         allowsInlineMediaPlayback: false,
         debuggingEnabled: false,
         initialMediaPlaybackPolicy: AutoMediaPlaybackPolicy.always_allow,
-        //initialUrl: "https://b2b.tarikediz.com/",
         initialUrl: "https://emirhancelik.com/",
         javascriptMode: JavascriptMode.unrestricted,
         javascriptChannels: Set.from([
@@ -138,7 +137,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     onPressed: () async {
                       const String _url =
-                          "https://www.tarikediz.com/en/privacy-policy/";
+                          "https://www.emirhancelik.com/privacy-policy/";
                       if (await canLaunch(_url)) {
                         launch(_url);
                       } else {
@@ -164,7 +163,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     const String _url =
-        'https://play.google.com/store/apps/details?id=com.tarik.ediz';
+        'https://play.google.com/store/apps/details?id=com.emirhancelik';
     return Scaffold(
       appBar: null,
       backgroundColor: Colors.black,
@@ -209,7 +208,7 @@ class _HomePageState extends State<HomePage> {
                   title: 'Example share',
                   text: 'Example share text',
                   linkUrl:
-                      'https://play.google.com/store/apps/details?id=com.tarik.ediz',
+                      'https://play.google.com/store/apps/details?id=com.emirhancelik',
                   chooserTitle: 'Example Chooser Title');
             } else if (index == 3) {
               await launch(_url);
